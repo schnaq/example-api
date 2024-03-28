@@ -14,6 +14,8 @@ poetry install
 poetry run uvicorn app.main:app --reload
 ```
 
+Find then the Docs at http://127.0.0.1:8000/docs
+
 ## schnaq
 
 This software is developed by:
