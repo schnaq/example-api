@@ -8,4 +8,4 @@ RUN poetry install
 
 EXPOSE 80
 
-ENTRYPOINT ["poetry", "run", "uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "80"]
+ENTRYPOINT ["poetry", "run", "main.py"]
